@@ -16,6 +16,13 @@
 
 # Debugger Files
 *.pdb
+*.idb
+
+# Visual Studio build files
+*.tlog
+*.recipe
+*.log
+*.lastbuildstate
 
 # Compiled Dynamic libraries
 *.so
@@ -41,5 +48,16 @@
 *.dwo
 
 # Other files to ignore
-.vs
-DS_Store
+.vs/
+.DS_Store
+
+# Visual Studio project user files
+*.vcxproj.user
+
+# Build output directories
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
